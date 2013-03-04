@@ -13,8 +13,7 @@ public class Permute
 			a[i] = a[0];
 			a[0] = temp;
 			str = new String(a);
-			permute(str.substring(1,str.length()), str.charAt(0)+"");
-			
+			permute(str.substring(1,str.length()), str.charAt(0)+"");	
 		}
 
 	}
@@ -40,8 +39,7 @@ public class Permute
 			a[i] = a[0];
 			a[0] = temp;
 			stemp = new String(a);
-			permute(stemp.substring(1,stemp.length()), s2+stemp.charAt(0));			
-
+			permute(stemp.substring(1,stemp.length()), s2+stemp.charAt(0));
 		}	
 
 	}
@@ -53,7 +51,6 @@ public class Permute
 
 		//String d = "dhiraj";
 		//System.out.println(d.substring(1,d.length()));
-
 	}
 
 
