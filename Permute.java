@@ -1,7 +1,7 @@
 public class Permute
 {
 
-  public void permuteString(String str)
+  	public void permuteString(String str)
 	{
 		permute(str.substring(1,str.length()), str.charAt(0)+"");
 
